@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
     - numpy >=1.17.3
@@ -29,6 +29,7 @@ requirements:
     - scikit-learn >=1.0.2
     - ipython >=8.0.1
     - importlib-resources >=3.3.1
+    - python >=3.6
 
 test:
   imports:
@@ -42,7 +43,7 @@ about:
   home: https://pypi.org/project/pyrsm/
   summary: Python functions for Customer Analytics at the Rady School of Management (RSM)
   dev_url: https://github.com/vnijs/pyrsm
-  license: AGPL-3.0
+  license: AGPL-3.0-only
   license_file: LICENSE
 
 extra:
