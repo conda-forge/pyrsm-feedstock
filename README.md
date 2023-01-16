@@ -147,6 +147,3 @@ Feedstock Maintainers
 
 * [@vnijs](https://github.com/vnijs/)
 
-
-<!-- dummy commit to enable rerendering -->
-
