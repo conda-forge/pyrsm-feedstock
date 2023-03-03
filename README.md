@@ -1,11 +1,11 @@
-About pyrsm
-===========
+About pyrsm-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyrsm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/pyrsm/
 
 Package license: AGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyrsm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python functions for Customer Analytics at the Rady School of Management (RSM)
 
