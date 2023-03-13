@@ -1,5 +1,5 @@
 {% set name = "pyrsm" %}
-{% set version = "0.7.6" %}
+{% set version = "0.7.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyrsm-{{ version }}.tar.gz
-  sha256: d177266206f718511ad54df0a1005271317c493966e3591d7f0a50f934f3969f
+  sha256: d18b36501dc11d37ba15f3f98deb2f9bdb3795e5276b678ee505dc8f8e1cbf82
 
 build:
   noarch: python
