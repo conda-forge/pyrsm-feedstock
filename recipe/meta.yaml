@@ -1,5 +1,5 @@
 {% set name = "pyrsm" %}
-{% set version = "0.6.7" %}
+{% set version = "0.8.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyrsm-{{ version }}.tar.gz
-  sha256: e29128ad2861546ab8a83e3233a7f775da0746ea7c24bc3dbc46c278cdf11589
+  sha256: f19aba14f1c4952471bd8d201d854e2a43a5d14eae44d489b0e8908b4876a40a
 
 build:
   noarch: python
@@ -21,16 +21,18 @@ requirements:
   run:
     - numpy >=1.17.3
     - pandas >=0.25.2
+    - polars >=0.17.14
     - seaborn >=0.9.0
     - matplotlib-base >=3.1.1
     - statsmodels >=0.10.1
     - scipy >=1.4.1
-    - ipynbname >=2021.3.2
     - scikit-learn >=1.0.2
-    - ipython >=8.0.1
-    - importlib-resources >=3.3.1
+    - IPython >=8.0.1
+    - shiny >=0.3.3
+    - uvicorn >=0.20.0
+    - nest-asyncio >=1.5.6
+    - black>=22.6.0
     - python >=3.6
-
 test:
   imports:
     - pyrsm
